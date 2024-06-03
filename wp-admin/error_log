@@ -1,0 +1,758 @@
+[16-Jan-2024 15:06:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_current_theme_is_fse_theme() in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/customizer/class-wc-shop-customizer.php:892
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/class-woocommerce.php(525): include_once()
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/class-woocommerce.php(188): WooCommerce->includes()
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/class-woocommerce.php(147): WooCommerce->__construct()
+#3 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/woocommerce.php(53): WooCommerce::instance()
+#4 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/woocommerce.php(68): WC()
+#5 /home/maxspee1/tso.maxspeed-global.com/wp-settings.php(473): include_once('/home/maxspee1/...')
+#6 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once('/home/maxspee1/...')
+#7 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#8 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin-ajax.php(22): require_once('/home/maxspee1/...')
+#9 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/customizer/class-wc-shop-customizer.php on line 892
+[16-Jan-2024 15:25:52 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Structured_Data" not found in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/class-woocommerce.php:711
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-includes/class-wp-hook.php(324): WooCommerce->init('')
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/maxspee1/tso.maxspeed-global.com/wp-settings.php(643): do_action('init')
+#4 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once('/home/maxspee1/...')
+#5 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#6 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin-ajax.php(22): require_once('/home/maxspee1/...')
+#7 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/class-woocommerce.php on line 711
+[16-Jan-2024 23:28:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/Internal/DataStores/Orders/OrdersTableDataStore.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 [internal function]: Automattic\Jetpack\Autoloader\jp13af4a3f8da9b445054cc1ac1e33cd66\PHP_Autoloader::load_class('Automattic\\WooC...')
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/lib/packages/League/Container/Definition/Definition.php(211): class_exists('Automattic\\WooC...')
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/lib/packages/League/Container/Definition/DefinitionAggregate.php(94): Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->resolve(false)
+#3 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/lib/packages/League/Container/Container.php(157): Automattic\WooCommerce\Vendor\League\Container\Definition\DefinitionAggregate->resolve('Automattic\\WooC...', false)
+#4 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/Internal/DependencyManagement/ExtendedContainer.php(158): Automattic\WooCommerce\Vendor\League\Container\Container->get('Automattic\\WooC...', false)
+#5 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/lib/packages/League/Container/Argument/ArgumentResolverTrait.php(45): Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer[16-Jan-2024 23:54:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-container.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-autoloader.php:27
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/autoload_packages.php(13): Automattic\Jetpack\Autoloader\jp13af4a3f8da9b445054cc1ac1e33cd66\Autoloader::init()
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/Autoloader.php(37): require('/home/maxspee1/...')
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/woocommerce.php(33): Automattic\WooCommerce\Autoloader::init()
+#3 /home/maxspee1/tso.maxspeed-global.com/wp-settings.php(473): include_once('/home/maxspee1/...')
+#4 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once('/home/maxspee1/...')
+#5 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#6 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin.php(34): require_once('/home/maxspee1/...')
+#7 /home/maxspee1/tso.maxspeed-global.com/wp-admin/edit.php(10): require_once('/home/maxspee1/...')
+#8 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-autoloader.php on line 27
+[17-Jan-2024 11:23:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-settings.php:269
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once()
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin.php(34): require_once('/home/maxspee1/...')
+#3 /home/maxspee1/tso.maxspeed-global.com/wp-admin/index.php(10): require_once('/home/maxspee1/...')
+#4 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-settings.php on line 269
+[18-Jan-2024 10:49:42 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-includes/embed.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-settings.php:232
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once()
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin-ajax.php(22): require_once('/home/maxspee1/...')
+#3 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-settings.php on line 232
+[18-Jan-2024 15:10:08 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/maxspee1/tso.maxspeed-global.com/wp-admin/includes/class-custom-image-header.php:1293
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-admin/includes/class-custom-image-header.php(1399): Custom_Image_Header->get_header_dimensions(Array)
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-includes/class-wp-hook.php(324): Custom_Image_Header->ajax_header_crop('')
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /home/maxspee1/tso.maxspeed-global.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin-ajax.php(188): do_action('wp_ajax_custom-...')
+#5 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-admin/includes/class-custom-image-header.php on line 1293
+[18-Jan-2024 15:11:07 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 12288 bytes) in /home/maxspee1/tso.maxspeed-global.com/wp-includes/media.php on line 3955
+[18-Jan-2024 15:11:09 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 12288 bytes) in /home/maxspee1/tso.maxspeed-global.com/wp-includes/media.php on line 3955
+[18-Jan-2024 15:11:10 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 12288 bytes) in /home/maxspee1/tso.maxspeed-global.com/wp-includes/media.php on line 3955
+[18-Jan-2024 15:11:12 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 12288 bytes) in /home/maxspee1/tso.maxspeed-global.com/wp-includes/media.php on line 3955
+[18-Jan-2024 15:11:14 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 12288 bytes) in /home/maxspee1/tso.maxspeed-global.com/wp-includes/media.php on line 3955
+[18-Jan-2024 15:11:15 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 12288 bytes) in /home/maxspee1/tso.maxspeed-global.com/wp-includes/media.php on line 3955
+[18-Jan-2024 15:12:32 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 12288 bytes) in /home/maxspee1/tso.maxspeed-global.com/wp-includes/media.php on line 3955
+[18-Jan-2024 15:12:34 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 12288 bytes) in /home/maxspee1/tso.maxspeed-global.com/wp-includes/media.php on line 3955
+[18-Jan-2024 15:12:35 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 12288 bytes) in /home/maxspee1/tso.maxspeed-global.com/wp-includes/media.php on line 3955
+[18-Jan-2024 15:12:37 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 12288 bytes) in /home/maxspee1/tso.maxspeed-global.com/wp-includes/media.php on line 3955
+[18-Jan-2024 15:12:38 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 12288 bytes) in /home/maxspee1/tso.maxspeed-global.com/wp-includes/media.php on line 3955
+[18-Jan-2024 15:12:40 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 12288 bytes) in /home/maxspee1/tso.maxspeed-global.com/wp-includes/media.php on line 3955
+[18-Jan-2024 16:00:43 UTC] PHP Warning:  include_once(): Failed opening '/home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/class-wc-logger.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/class-woocommerce.php on line 530
+[18-Jan-2024 16:00:43 UTC] PHP Warning:  class_implements(): Class WC_Logger does not exist and could not be loaded in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 2017
+[18-Jan-2024 16:00:43 UTC] wc_get_logger was called incorrectly. The class <code>WC_Logger</code> provided by <code>woocommerce_logging_class</code> filter must implement <code>WC_Logger_Interface</code>. Backtrace: require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/woocommerce/woocommerce.php'), WC, WooCommerce::instance, WooCommerce->__construct, WooCommerce->init_hooks, Automattic\WooCommerce\Container->get, Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->get, Automattic\WooCommerce\Vendor\League\Container\Container->get, Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->get, Automattic\WooCommerce\Vendor\League\Container\Container->get, Automattic\WooCommerce\Vendor\League\Container\Definition\DefinitionAggregate->resolve, Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->resolve, Automattic\WooCommerce\Internal\DependencyManagement\Definition->resolveClass, Automattic\WooCommerce\Internal\DependencyManagement\Definition->invokeInit, Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->resolveArguments, array_map, Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->Automattic\WooCommerce\Vendor\League\Container\Argument\{closure}, Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->get, Automattic\WooCommerce\Vendor\League\Container\Container->get, Automattic\WooCommerce\Vendor\League\Container\Definition\DefinitionAggregate->resolve, Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->resolve, Automattic\WooCommerce\Internal\DependencyManagement\Definition->resolveClass, Automattic\WooCommerce\Internal\DependencyManagement\Definition->invokeInit, call_user_func_array, Automattic\WooCommerce\Internal\DataStores\Orders\OrdersTableDataStore->init, Automattic\WooCommerce\Proxies\LegacyProxy->call_function, call_user_func_array, wc_get_logger, wc_doing_it_wrong. This message was added in version 3.0.
+[18-Jan-2024 16:00:43 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Logger" not found in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/wc-core-functions.php:2034
+Stack trace:
+#0 [internal function]: wc_get_logger()
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/Proxies/LegacyProxy.php(83): call_user_func_array('wc_get_logger', Array)
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/Internal/DataStores/Orders/OrdersTableDataStore.php(156): Automattic\WooCommerce\Proxies\LegacyProxy->call_function('wc_get_logger')
+#3 [internal function]: Automattic\WooCommerce\Internal\DataStores\Orders\OrdersTableDataStore->init(Object(Automattic\WooCommerce\Internal\DataStores\Orders\OrdersTableDataStoreMeta), Object(Automattic\WooCommerce\Internal\Utilities\DatabaseUtil), Object(Automattic\WooCommerce\Proxies\LegacyProxy))
+#4 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/Internal/DependencyManagement/Definition.php(59): call_user_func_array(Array, Array)
+#5 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/Internal/DependencyManagement/Definition.php(29): Automattic\WooCommerce\Internal\DependencyManagement\Definition->invokeInit(Object(Automattic\WooCommerce\Internal\DataStores\Orders\OrdersTableDataStore))
+#6 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/lib/packages/League/Container/Definition/Definition.php(212): Automattic\WooCommerce\Internal\DependencyManagement\Definition->resolveClass('Automattic\\WooC...')
+#7 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/lib/packages/League/Container/Definition/DefinitionAggregate.php(94): Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->resolve(false)
+#8 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/lib/packages/League/Container/Container.php(157): Automattic\WooCommerce\Vendor\League\Container\Definition\DefinitionAggregate->resolve('Automattic\\WooC...', false)
+#9 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/Internal/DependencyManagement/ExtendedContainer.php(158): Automattic\WooCommerce\Vendor\League\Container\Container->get('Automattic\\WooC...', false)
+#10 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/lib/packages/League/Container/Argument/ArgumentResolverTrait.php(45): Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->get('Automattic\\WooC...')
+#11 [internal function]: Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->Automattic\WooCommerce\Vendor\League\Container\Argument\{closure}('Automattic\\WooC...')
+#12 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/lib/packages/League/Container/Argument/ArgumentResolverTrait.php(19): array_map(Object(Closure), Array)
+#13 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/Internal/DependencyManagement/Definition.php(56): Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->resolveArguments(Array)
+#14 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/Internal/DependencyManagement/Definition.php(29): Automattic\WooCommerce\Internal\DependencyManagement\Definition->invokeInit(Object(Automattic\WooCommerce\Internal\DataStores\Orders\CustomOrdersTableController))
+#15 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/lib/packages/League/Container/Definition/Definition.php(212): Automattic\WooCommerce\Internal\DependencyManagement\Definition->resolveClass('Automattic\\WooC...')
+#16 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/lib/packages/League/Container/Definition/DefinitionAggregate.php(94): Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->resolve(false)
+#17 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/lib/packages/League/Container/Container.php(157): Automattic\WooCommerce\Vendor\League\Container\Definition\DefinitionAggregate->resolve('Automattic\\WooC...', false)
+#18 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/Internal/DependencyManagement/ExtendedContainer.php(158): Automattic\WooCommerce\Vendor\League\Container\Container->get('Automattic\\WooC...', false)
+#19 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/lib/packages/League/Container/Container.php(178): Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->get('Automattic\\WooC...', false)
+#20 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/Internal/DependencyManagement/ExtendedContainer.php(158): Automattic\WooCommerce\Vendor\League\Container\Container->get('Automattic\\WooC...', false)
+#21 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/Container.php(116): Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->get('Automattic\\WooC...')
+#22 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/class-woocommerce.php(262): Automattic\WooCommerce\Container->get('Automattic\\WooC...')
+#23 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/class-woocommerce.php(189): WooCommerce->init_hooks()
+#24 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/class-woocommerce.php(147): WooCommerce->__construct()
+#25 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/woocommerce.php(53): WooCommerce::instance()
+#26 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/woocommerce.php(68): WC()
+#27 /home/maxspee1/tso.maxspeed-global.com/wp-settings.php(473): include_once('/home/maxspee1/...')
+#28 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once('/home/maxspee1/...')
+#29 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#30 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin-ajax.php(22): require_once('/home/maxspee1/...')
+#31 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 2034
+[18-Jan-2024 22:03:41 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/wc-page-functions.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/wc-core-functions.php:26
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/class-woocommerce.php(495): include_once()
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/class-woocommerce.php(188): WooCommerce->includes()
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/class-woocommerce.php(147): WooCommerce->__construct()
+#3 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/woocommerce.php(53): WooCommerce::instance()
+#4 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/woocommerce.php(68): WC()
+#5 /home/maxspee1/tso.maxspeed-global.com/wp-settings.php(473): include_once('/home/maxspee1/...')
+#6 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once('/home/maxspee1/...')
+#7 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#8 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin-ajax.php(22): require_once('/home/maxspee1/...')
+#9 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 26
+[18-Jan-2024 22:03:55 UTC] PHP Warning:  include_once(): Failed opening '/home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/data-stores/class-wc-data-store-wp.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/class-woocommerce.php on line 540
+[18-Jan-2024 22:03:55 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Data_Store_WP" not found in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/data-stores/class-wc-coupon-data-store-cpt.php:17
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/class-woocommerce.php(541): include_once()
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/class-woocommerce.php(188): WooCommerce->includes()
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/class-woocommerce.php(147): WooCommerce->__construct()
+#3 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/woocommerce.php(53): WooCommerce::instance()
+#4 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/woocommerce.php(68): WC()
+#5 /home/maxspee1/tso.maxspeed-global.com/wp-settings.php(473): include_once('/home/maxspee1/...')
+#6 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once('/home/maxspee1/...')
+#7 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#8 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin-ajax.php(22): require_once('/home/maxspee1/...')
+#9 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/data-stores/class-wc-coupon-data-store-cpt.php on line 17
+[18-Jan-2024 22:09:33 UTC] PHP Fatal error:  Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-admin/admin-ajax.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in Unknown on line 0
+[19-Jan-2024 00:44:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/Internal/DependencyManagement/ServiceProviders/ProductImageBySKUServiceProvider.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 [internal function]: Automattic\Jetpack\Autoloader\jp13af4a3f8da9b445054cc1ac1e33cd66\PHP_Autoloader::load_class('Automattic\\WooC...')
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/lib/packages/League/Container/ServiceProvider/ServiceProviderAggregate.php(30): class_exists('Automattic\\WooC...')
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/lib/packages/League/Container/Container.php(146): Automattic\WooCommerce\Vendor\League\Container\ServiceProvider\ServiceProviderAggregate->add('Automattic\\WooC...')
+#3 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/Container.php(101): Automattic\WooCommerce\Vendor\League\Container\Container->addServiceProvider('Automattic\\WooC...')
+#4 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/woocommerce.php(44): Automattic\WooCommerce\Container->__construct()
+#5 /home/maxspee1/tso.maxspeed-global.com/wp-settings.php(473): include_once('/home/maxspee1/...')
+#6 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once('/home/maxspee1/...')
+#7 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#8 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin-ajax.php(22): require_once('/home/maxspee1/...')
+#9 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloa[19-Jan-2024 00:55:53 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/Blocks/BlockTypes/OrderConfirmation/BillingAddress.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/Blocks/BlockTypesController.php(106): Automattic\Jetpack\Autoloader\jp13af4a3f8da9b445054cc1ac1e33cd66\PHP_Autoloader::load_class('Automattic\\WooC...')
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-includes/class-wp-hook.php(324): Automattic\WooCommerce\Blocks\BlockTypesController->register_blocks('')
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home/maxspee1/tso.maxspeed-global.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/maxspee1/tso.maxspeed-global.com/wp-settings.php(643): do_action('init')
+#5 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once('/home/maxspee1/...')
+#6 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#7 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin-ajax.php(22): require_once('/home/maxspee1/...')
+#8 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+[19-Jan-2024 00:57:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-includes/blocks/social-link.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-includes/blocks/require-dynamic-blocks.php:64
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-includes/blocks/index.php(13): require()
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-settings.php(339): require('/home/maxspee1/...')
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once('/home/maxspee1/...')
+#3 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#4 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin-ajax.php(22): require_once('/home/maxspee1/...')
+#5 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-includes/blocks/require-dynamic-blocks.php on line 64
+[19-Jan-2024 00:57:35 UTC] PHP Warning:  Class "Automattic\WooCommerce\StoreApi\Schemas\V1\CartItemSchema" not found in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/StoreApi/deprecated.php on line 73
+[19-Jan-2024 00:57:35 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/ItemSchema.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/CartItemSchema.php(10): Automattic\Jetpack\Autoloader\jp13af4a3f8da9b445054cc1ac1e33cd66\PHP_Autoloader::load_class('Automattic\\WooC...')
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php(90): require('/home/maxspee1/...')
+#2 [internal function]: Automattic\Jetpack\Autoloader\jp13af4a3f8da9b445054cc1ac1e33cd66\PHP_Autoloader::load_class('Automattic\\WooC...')
+#3 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/StoreApi/deprecated.php(73): class_alias('Automattic\\WooC...', 'Automattic\\WooC...')
+#4 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-version-loader.php(89): require_once('/home/maxspee1/...')
+#5 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-autoloader-handler.php(124): Automattic\Jetp[19-Jan-2024 00:57:36 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/elementor/app/app.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/elementor/includes/autoloader.php:294
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/elementor/includes/autoloader.php(330): Elementor\Autoloader::load_class('App\\App')
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/elementor/includes/plugin.php(750): Elementor\Autoloader::autoload('Elementor\\App\\A...')
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/elementor/includes/plugin.php(647): Elementor\Plugin->init_components()
+#3 /home/maxspee1/tso.maxspeed-global.com/wp-includes/class-wp-hook.php(324): Elementor\Plugin->init('')
+#4 /home/maxspee1/tso.maxspeed-global.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/maxspee1/tso.maxspeed-global.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/maxspee1/tso.maxspeed-global.com/wp-settings.php(643): do_action('init')
+#7 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once('/home/maxspee1/...')
+#8 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#9 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin.php(34): require_once('/home/maxspee1/...')
+#10 /home/maxspee1/tso.maxspeed-global.com/wp-admin/post.php(12): require_once('/home/maxspee1/...')
+#11 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/elementor/includes/autoloader.php on line 294
+[19-Jan-2024 02:15:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/StoreApi/Routes/V1/Products.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 [internal function]: Automattic\Jetpack\Autoloader\jp13af4a3f8da9b445054cc1ac1e33cd66\PHP_Autoloader::load_class('Automattic\\WooC...')
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/StoreApi/deprecated.php(73): class_alias('Automattic\\WooC...', 'Automattic\\WooC...')
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-version-loader.php(89): require_once('/home/maxspee1/...')
+#3 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-autoloader-handler.php(124): Automattic\Jetpack\Autoloader\jp13af4a3f8da9b445054cc1ac1e33cd66\Version_Loader->load_filemap()
+#4 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-autoloader.php(80): Automattic\Jetpack\Autoloader\jp13af4a3f8da9b445054cc1ac1e33cd66\Autoloader_Handler->activate_autoloader(Array)
+#5 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/autoload_packages.php(13): Automattic\Jetpack\Autoloader\jp13af4a3f8da9b445054cc1ac1e33cd66\Autoloader::init()
+#6 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/Autoloader.php(37): require('/home/maxspee1/...')
+#7 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/woocommerce.php(33): Automattic\WooCommerce\Autoloader::init()
+#8 /home/maxspee1/tso.maxspeed-global.com/wp-settings.php(473): include_once('/home/maxspee1/...')
+#9 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once('/home/maxspee1/...')
+#10 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#11 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin-ajax.php(22): require_once('/home/maxspee1/...')
+#12 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+[19-Jan-2024 03:05:58 UTC] PHP Fatal error:  Uncaught Error: Failed openin[19-Jan-2024 03:38:16 UTC] PHP Fatal error:  Uncaught Error: Class "Abstract_WC_Order_Item_Type_Data_Store" not found in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/data-stores/class-wc-order-item-coupon-data-store.php:17
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/class-woocommerce.php(548): include_once()
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/class-woocommerce.php(188): WooCommerce->includes()
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/class-woocommerce.php(147): WooCommerce->__construct()
+#3 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/woocommerce.php(53): WooCommerce::instance()
+#4 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/woocommerce.php(68): WC()
+#5 /home/maxspee1/tso.maxspeed-global.com/wp-settings.php(473): include_once('/home/maxspee1/...')
+#6 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once('/home/maxspee1/...')
+#7 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#8 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin-ajax.php(22): require_once('/home/maxspee1/...')
+#9 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/data-stores/class-wc-order-item-coupon-data-store.php on line 17
+[19-Jan-2024 03:40:35 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-includes/class-wp.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-settings.php:114
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once()
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin-ajax.php(22): require_once('/home/maxspee1/...')
+#3 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-settings.php on line 114
+[19-Jan-2024 04:50:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-includes/blocks/image.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-includes/blocks/require-dynamic-blocks.php:28
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-includes/blocks/index.php(13): require()
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-settings.php(339): require('/home/maxspee1/...')
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once('/home/maxspee1/...')
+#3 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#4 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin-ajax.php(22): require_once('/home/maxspee1/...')
+#5 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-includes/blocks/require-dynamic-blocks.php on line 28
+[19-Jan-2024 04:50:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-includes/blocks.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-settings.php:338
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once()
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin.php(34): require_once('/home/maxspee1/...')
+#3 /home/maxspee1/tso.maxspeed-global.com/wp-admin/post.php(12): require_once('/home/maxspee1/...')
+#4 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-settings.php on line 338
+[19-Jan-2024 05:59:43 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-includes/blocks/query/view.min.asset.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-includes/blocks.php:188
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-includes/blocks.php(458): register_block_script_handle(Array, 'viewScript')
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-includes/blocks/query.php(127): register_block_type_from_metadata('/home/maxspee1/...', Array)
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-includes/class-wp-hook.php(324): register_block_core_query('')
+#3 /home/maxspee1/tso.maxspeed-global.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/maxspee1/tso.maxspeed-global.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/maxspee1/tso.maxspeed-global.com/wp-settings.php(643): do_action('init')
+#6 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once('/home/maxspee1/...')
+#7 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#8 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin-ajax.php(22): require_once('/home/maxspee1/...')
+#9 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-includes/blocks.php on line 188
+[26-Jan-2024 07:02:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-includes/rest-api/class-wp-rest-server.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-settings.php:265
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once()
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin-ajax.php(22): require_once('/home/maxspee1/...')
+#3 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-settings.php on line 265
+[26-Jan-2024 07:02:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/StoreApi/Routes/V1/Products.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 [internal function]: Automattic\Jetpack\Autoloader\jp13af4a3f8da9b445054cc1ac1e33cd66\PHP_Autoloader::load_class('Automattic\\WooC...')
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/StoreApi/deprecated.php(73): class_alias('Automattic\\WooC...', 'Automattic\\WooC...')
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-version-loader.php(89): require_once('/home/maxspee1/...')
+#3 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-autoloader-handler.php(124): Automattic\Jetpack\Autoloader\jp13af4a3f8da9b445054cc1ac1e33cd66\Version_Loader->load_filemap()
+#4 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-autoloader.php(80): Automattic\Jetpack\Autoloader\jp13af4a3f8da9b445054cc1ac1e33cd66\Autoloader_Handler->activate_autoloader(Array)
+#5 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/autoload_packages.php(13): Automattic\Jetpack\Autoloader\jp13af4a3f8da9b445054cc1ac1e33cd66\Autoloader::init()
+#6 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/Autoloader.php(37): require('/home/maxspee1/...')
+#7 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/woocommerce.php(33): Automattic\WooCommerce\Autoloader::init()
+#8 /home/maxspee1/tso.maxspeed-global.com/wp-settings.php(473): include_once('/home/maxspee1/...')
+#9 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once('/home/maxspee1/...')
+#10 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#11 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin-ajax.php(22): require_once('/home/maxspee1/...')
+#12 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+[31-Jan-2024 12:55:56 UTC] PHP Warning:  include_once(): Failed opening '/home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/class-wc-install.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/class-woocommerce.php on line 498
+[05-Feb-2024 01:36:40 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-includes/blocks/post-featured-image.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-includes/blocks/require-dynamic-blocks.php:45
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-includes/blocks/index.php(13): require()
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-settings.php(339): require('/home/maxspee1/...')
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once('/home/maxspee1/...')
+#3 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#4 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin-ajax.php(22): require_once('/home/maxspee1/...')
+#5 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-includes/blocks/require-dynamic-blocks.php on line 45
+[05-Feb-2024 01:37:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-includes/class-wp-duotone.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-settings.php:178
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once()
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin-ajax.php(22): require_once('/home/maxspee1/...')
+#3 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-settings.php on line 178
+[05-Feb-2024 01:38:13 UTC] PHP Warning:  include_once(): Failed opening '/home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/class-wc-privacy-erasers.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/class-wc-privacy.php on line 59
+[05-Feb-2024 02:59:02 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-settings.php:303
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once()
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin-ajax.php(22): require_once('/home/maxspee1/...')
+#3 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-settings.php on line 303
+[05-Feb-2024 03:02:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-admin/includes/screen.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-admin/includes/admin.php:59
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin.php(97): require_once()
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-admin/post.php(12): require_once('/home/maxspee1/...')
+#2 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-admin/includes/admin.php on line 59
+[05-Feb-2024 03:02:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-admin/includes/media.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-admin/includes/admin.php:37
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin-ajax.php(36): require_once()
+#1 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-admin/includes/admin.php on line 37
+[05-Feb-2024 03:05:50 UTC] PHP Fatal error:  Uncaught Error: Failed ope[05-Feb-2024 03:07:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-includes/formatting.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-settings.php:109
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once()
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin-ajax.php(22): require_once('/home/maxspee1/...')
+#3 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-settings.php on line 109
+[05-Feb-2024 03:11:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-includes/deprecated.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-settings.php:222
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once()
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin-ajax.php(22): require_once('/home/maxspee1/...')
+#3 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-settings.php on line 222
+[05-Feb-2024 05:28:31 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-includes/feed.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-settings.php:217
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once()
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin-ajax.php(22): require_once('/home/maxspee1/...')
+#3 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-settings.php on line 217
+[05-Feb-2024 05:28:31 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-includes/class-wp-rewrite.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-settings.php:216
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once()
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin.php(34): require_once('/home/maxspee1/...')
+#3 /home/maxspee1/tso.maxspeed-global.com/wp-admin/post.php(12): require_once('/home/maxspee1/...')
+#4 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-settings.php on line 216
+[05-Feb-2024 05:28:31 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-includes/rest-api.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-settings.php:264
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once()
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin-ajax.php(22): require_once('/home/maxspee1/...')
+#3 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-settings.php on line 264
+[05-Feb-2024 05:28:35 UTC] PHP Warning:  include_once(): Failed opening '/home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/interfaces/class-wc-log-handler-interface.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/class-woocommerce.php on line 466
+[05-Feb-2024 05:28:35 UTC] PHP Warning:  include_once(): Failed opening '/home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/interfaces/class-wc-webhooks-data-store-interface.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/wo[05-Feb-2024 05:28:35 UTC] PHP Warning:  include_once(): Failed opening '/home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-object-query.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/class-woocommerce.php on line 479
+[05-Feb-2024 05:28:35 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Data" not found in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-payment-token.php:18
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-payment-token.php(15): require_once()
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/class-woocommerce.php(480): include_once('/home/maxspee1/...')
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/class-woocommerce.php(188): WooCommerce->includes()
+#3 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/class-woocommerce.php(147): WooCommerce->__construct()
+#4 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/woocommerce.php(53): WooCommerce::instance()
+#5 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/woocommerce.php(68): WC()
+#6 /home/maxspee1/tso.maxspeed-global.com/wp-settings.php(473): include_once('/home/maxspee1/...')
+#7 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once('/home/maxspee1/...')
+#8 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#9 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin.php(34): require_once('/home/maxspee1/...')
+#10 /home/maxspee1/tso.maxspeed-global.com/wp-admin/post.php(12): require_once('/home/maxspee1/...')
+#11 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/legacy/abstract-wc-legacy-payment-token.php on line 18
+[05-Feb-2024 05:29:24 UTC] PHP Warning:  include_once(): Failed opening '/home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-settings-api.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/class-woocommerce.php on line 483
+[05-Feb-2024 05:29:24 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Settings_API" not found in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-shipping-method.php:22
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/class-woocommerce.php(484): include_once()
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/class-woocommerce.php(188): WooCommerce->includes()
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/class-woocommerce.php(147): WooCommerce->__construct()
+#3 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/woocommerce.php(53): WooCommerce::instance()
+#4 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/woocommerce.php(68): WC()
+#5 /home/maxspee1/tso.maxspeed-global.com/wp-settings.php(473): include_once('/home/maxspee1/...')
+#6 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once('/home/maxspee1/...')
+#7 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#8 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin-ajax.php(22): require_once('/home/maxspee1/...')
+#9 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-shipping-method.php on line 22
+[05-Feb-2024 05:29:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/lib/packages/League/Container/ServiceProvider/AbstractServiceProvider.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/Internal/DependencyManagement/AbstractServiceProvider.php(25): Automattic\Jetpack\Autoloader\jp13af4a3f8da9b445054cc1ac1e33cd66\PHP_Autoloader::load_class('Automattic\\WooC...')
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php(90): require('/home/maxspee1/...')
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/Internal/DependencyManagement/ServiceProviders/AssignDefaultCategoryServiceProvider.php(14): Automattic\Jetpack\Autoloader\jp13af4a3f8da9b445054cc1ac1e33cd66\PHP_Autoloader::load_class('Automattic\\WooC...')
+#3 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php(90): require('/home/maxspee1/...')
+#4 [internal function]: Automattic\Jetpack\Autoloader\jp13af4a3f8da9b445054cc1ac1e33cd66\PHP_Autoloader::load_class('Automattic\\WooC...')
+#5 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/lib/packages/League/Container/ServiceProvider/ServiceProviderAggregate.php(30): class_exists('Automattic\\WooC...')
+#6 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/lib/packages/League/Container/Container.php(146): Automattic\WooCommerce\Vendor\League\Container\ServiceProvider\ServiceProviderAggregate->add('Automattic\\WooC...')
+#7 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/Container.php(101): Automattic\WooCommerce\Vendor\League\Container\Container->addServiceProvider('Automattic\\WooC...')
+#8 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/woocommerce.php(44): Automattic\WooCommerce\Container->__construct()
+#9 /home/maxspee1/tso.maxspeed-global.com/wp-settings.php(473): include_once('/home/maxspee1/...')
+#10 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once('/home/maxspee1/...')
+#11 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#12 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin.php(34): require_once('/home/maxspee1/...')
+#13 /home/maxspee1/tso.maxspeed-global.com/wp-admin/edit.php(10): require_once('/home/maxspee1/...')
+#14 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+[05-Feb-2024 05:29:46 UTC] PHP Warning:  include_once(): Failed opening '/home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/data-stores/class-wc-product-variation-data-store-cpt.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/class-woocommerce.php on line 545
+[05-Feb-2024 05:29:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/ti-woocommerce-wishlist/includes/deprecated/filters.class.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/ti-woocommerce-wishlist/ti-woocommerce-wishlist.php:169
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/ti-woocommerce-wishlist/includes/tinvwl.class.php(95): autoload_tinv_wishlist('TInvWL_Deprecat...')
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/ti-woocommerce-wishlist/ti-woocommerce-wishlist.php(224): TInvWL->run()
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-includes/class-wp-hook.php(324): run_tinv_wishlist('')
+#3 /home/maxspee1/tso.maxspeed-global.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/maxspee1/tso.maxspeed-global.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/maxspee1/tso.maxspeed-global.com/wp-settings.php(506): do_action('plugins_loaded')
+#6 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once('/home/maxspee1/...')
+#7 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#8 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin-ajax.php(22): require_once('/home/maxspee1/...')
+#9 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/ti-woocommerce-wishlist/ti-woocommerce-wishlist.php on line 169
+[05-Feb-2024 05:30:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-admin-menu-manager.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/ocean-extra/includes/freemius/require.php:29
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/ocean-extra/includes/freemius/start.php(486): require_once()
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-content/themes/oceanwp/functions.php(1116): require_once('/home/maxspee1/...')
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-content/themes/oceanwp/functions.php(1146): owp_fs()
+#3 /home/maxspee1/tso.maxspeed-global.com/wp-settings.php(611): include('/home/maxspee1/...')
+#4 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once('/home/maxspee1/...')
+#5 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#6 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin-ajax.php(22): require_once('/home/maxspee1/...')
+#7 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/ocean-extra/includes/freemius/require.php on line 29
+[05-Feb-2024 05:31:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/ocean-extra/includes/widgets/recent-posts.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/ocean-extra/ocean-extra.php:477
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-includes/class-wp-hook.php(324): Ocean_Extra::custom_widgets('')
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/maxspee1/tso.maxspeed-global.com/wp-includes/widgets.php(1858): do_action('widgets_init')
+#4 /home/maxspee1/tso.maxspeed-global.com/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#5 /home/maxspee1/tso.maxspeed-global.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 /home/maxspee1/tso.maxspeed-global.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/maxspee1/tso.maxspeed-global.com/wp-settings.php(643): do_action('init')
+#8 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once('/home/maxspee1/...')
+#9 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#10 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin-ajax.php(22): require_once('/home/maxspee1/...')
+#11 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/ocean-extra/ocean-extra.php on line 477
+[05-Feb-2024 05:31:15 UTC] PHP Warning:  include(): Failed opening '/home/maxspee1/tso.maxspeed-global.com/wp-content/themes/oceanwp/functions.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-settings.php on line 611
+[05-Feb-2024 05:32:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-includes/class-walker-page.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-settings.php:198
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once()
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin.php(34): require_once('/home/maxspee1/...')
+#3 /home/maxspee1/tso.maxspeed-global.com/wp-admin/post.php(12): require_once('/home/maxspee1/...')
+#4 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-settings.php on line 198
+[05-Feb-2024 05:37:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/ti-woocommerce-wishlist/integrations/woocommerce-gravityforms-product-addons.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/ti-woocommerce-wishlist/ti-woocommerce-wishlist.php:213
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-includes/class-wp-hook.php(324): run_tinv_wishlist('')
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/maxspee1/tso.maxspeed-global.com/wp-settings.php(506): do_action('plugins_loaded')
+#4 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once('/home/maxspee1/...')
+#5 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#6 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin-ajax.php(22): require_once('/home/maxspee1/...')
+#7 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/ti-woocommerce-wishlist/ti-woocommerce-wishlist.php on line 213
+[05-Feb-2024 05:37:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-admin/includes/class-wp-automatic-updater.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-admin/includes/class-wp-upgrader.php:1236
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woo-product-slider/src/Admin/Helper/SP_WPS_WQV.php(44): require_once()
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woo-product-slider/src/Admin/Admin.php(32): ShapedPlugin\WooProductSlider\Admin\Helper\SP_WPS_WQV->__construct()
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woo-product-slider/src/Includes/WooProductSlider.php(78): ShapedPlugin\WooProductSlider\Admin\Admin->__construct()
+#3 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woo-product-slider/src/Includes/WooProductSlider.php(66): ShapedPlugin\WooProductSlider\Includes\WooProductSlider->__construct()
+#4 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woo-product-slider/main.php(82): ShapedPlugin\WooProductSlider\Includes\WooProductSlider::instance()
+#5 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woo-product-slider/main.php(86): sp_woo_product_slider()
+#6 /home/maxspee1/tso.maxspeed-global.com/wp-settings.php(473): include_once('/home/maxspee1/...')
+#7 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once('/home/maxspee1/...')
+#8 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#9 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin-ajax.php(22): require_once('/home/maxspee1/...')
+#10 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-admin/includes/class-wp-upgrader.php on line 1236
+[05-Feb-2024 06:02:44 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-includes/script-loader.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-settings.php:223
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once()
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin-ajax.php(22): require_once('/home/maxspee1/...')
+#3 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-settings.php on line 223
+[05-Feb-2024 06:02:46 UTC] PHP Warning:  include_once(): Failed opening '/home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/class-wc-download-handler.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/class-woocommerce.php on line 500
+[05-Feb-2024 06:03:08 UTC] PHP Warning:  Class "Automattic\WooCommerce\StoreApi\Routes\V1\Cart" not found in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/StoreApi/deprecated.php on line 73
+[05-Feb-2024 06:03:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/StoreApi/Routes/V1/Cart.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 [internal function]: Automattic\Jetpack\Autoloader\jp13af4a3f8da9b445054cc1ac1e33cd66\PHP_Autoloader::load_class('Automattic\\WooC...')
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/StoreApi/deprecated.php(73): class_alias('Automattic\\WooC...', 'Automattic\\WooC...')
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-version-loader.php(89): require_once('/home/maxspee1/...')
+#3 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-autoloader-handler.php(124): Automattic\Jetpack\Autoloader\jp13af4a3f8da9b445054cc1ac1e33cd66\Version_Loader->load_filemap()
+#4 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-autoloader.php(80): Automattic\Jetpack\Autoloader\jp13af4a3f8da9b445054cc1ac1e33cd66\Autoloader_Handler->activate_autoloader(Array)
+#5 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/autoload_packages.php(13): Automattic\Jetpack\Autoloader\jp13af4a3f8da9b445054cc1ac1e33cd66\Autoloader::init()
+#6 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/Autoloader.php(37): require('/home/maxspee1/...')
+#7 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/woocommerce.php(33): Automattic\WooCommerce\Autoloader::init()
+#8 /home/maxspee1/tso.maxspeed-global.com/wp-settings.php(473): include_once('/home/maxspee1/...')
+#9 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once('/home/maxspee1/...')
+#10 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#11 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin-ajax.php(22): require_once('/home/maxspee1/...')
+#12 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+[05-Feb-2024 06:21:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-includes/class-wp-recovery-mode-email-service.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-settings.php:46
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once()
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin-ajax.php(22): require_once('/home/maxspee1/...')
+#3 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-settings.php on line 46
+[05-Feb-2024 06:21:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/automattic/jetpack-connection/src/class-manager.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/automattic/jetpack-connection/src/class-rest-authentication.php(61): Automattic\Jetpack\Autoloader\jp13af4a3f8da9b445054cc1ac1e33cd66\PHP_Autoloader::load_class('Automattic\\Jetp...')
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/automattic/jetpack-connection/src/class-rest-authentication.php(71): Automattic\Jetpack\Connection\Rest_Authentication->__construct()
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/woocommerce.php(72): Automattic\Jetpack\Connection\Rest_Authentication::init()
+#3 /home/maxspee1/tso.maxspeed-global.com/wp-settings.php(473): include_once('/home/maxspee1/...')
+#4 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once('/home/maxspee1/...')
+#5 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#6 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin-ajax.php(22): require_once('/home/maxspee1/...')
+#7 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+[05-Feb-2024 06:22:31 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/CouponPageMoved.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/Internal/Admin/Coupons.php(54): Automattic\Jetpack\Autoloader\jp13af4a3f8da9b445054cc1ac1e33cd66\PHP_Autoloader::load_class('Automattic\\WooC...')
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/Admin/Features/Features.php(138): Automattic\WooCommerce\Internal\Admin\Coupons->__construct()
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-includes/class-wp-hook.php(324): Automattic\WooCommerce\Admin\Features\Features::load_features('')
+#3 /home/maxspee1/tso.maxspeed-global.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/maxspee1/tso.maxspeed-global.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/maxspee1/tso.maxspeed-global.com/wp-settings.php(643): do_action('init')
+#6 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once('/home/maxspee1/...')
+#7 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#8 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin-ajax.php(22): require_once('/home/maxspee1/...')
+#9 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+[05-Feb-2024 06:30:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-includes/class-wp-rewrite.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-settings.php:216
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once()
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin-ajax.php(22): require_once('/home/maxspee1/...')
+#3 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-settings.php on line 216
+[05-Feb-2024 06:59:02 UTC] PHP Fatal error:  During class fetch: Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/Internal/Traits/ScriptDebug.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/Internal/Orders/OrderAttributionController.php(25): Automattic\Jetpack\Autoloader\jp13af4a3f8da9b445054cc1ac1e33cd66\PHP_Autoloader::load_class('Automattic\\WooC...')
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php(90): require('/home/maxspee1/...')
+#[05-Feb-2024 06:59:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/ocean-extra/includes/freemius/includes/entities/class-fs-subscription.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/ocean-extra/includes/freemius/require.php:47
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/ocean-extra/includes/freemius/start.php(486): require_once()
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-content/themes/oceanwp/functions.php(1116): require_once('/home/maxspee1/...')
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-content/themes/oceanwp/functions.php(1146): owp_fs()
+#3 /home/maxspee1/tso.maxspeed-global.com/wp-settings.php(611): include('/home/maxspee1/...')
+#4 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once('/home/maxspee1/...')
+#5 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#6 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin-ajax.php(22): require_once('/home/maxspee1/...')
+#7 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/ocean-extra/includes/freemius/require.php on line 47
+[05-Feb-2024 07:00:06 UTC] PHP Warning:  Class "Automattic\WooCommerce\StoreApi\Schemas\V1\OrderCouponSchema" not found in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/StoreApi/deprecated.php on line 73
+[05-Feb-2024 07:00:06 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/OrderCouponSchema.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 [internal function]: Automattic\Jetpack\Autoloader\jp13af4a3f8da9b445054cc1ac1e33cd66\PHP_Autoloader::load_class('Automattic\\WooC...')
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/StoreApi/deprecated.php(73): class_alias('Automattic\\WooC...', 'Automattic\\WooC...')
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-version-loader.php(89): require_once('/home/maxspee1/...')
+#3 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-autoloader-handler.php(124): Automattic\Jetpack\Autoloader\jp13af4a3f8da9b445054cc1ac1e33cd66\Version_Loader->load_filemap()
+#4 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-autoloader.php(80): Automattic\Jetpack\Autoloader\jp13af4a3f8da9b445054cc1ac1e33cd66\Autoloader_Handler->activate_autoloader(Array)
+#5 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/autoload_packages.php(13): Automattic\Jetpack\Autoloader\jp13af4a3f8da9b445054cc1ac1e33cd66\Autoloader::init()
+#6 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/Autoloader.php(37): require('/home/maxspee1/...')
+#7 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/woocommerce.php(33): Automattic\WooCommerce\Autoloader::init()
+#8 /home/maxspee1/tso.maxspeed-global.com/wp-settings.php(473): include_once('/home/maxspee1/...')
+#9 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once('/home/maxspee1/...')
+#10 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#11 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin-ajax.php(22): require_once('/home/maxspee1/...')
+#12 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+[05-Feb-2024 07:27:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/Blocks/BlockTypes/CheckoutActionsBlock.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/sha[05-Feb-2024 07:27:53 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-includes/html-api/class-wp-html-text-replacement.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-settings.php:240
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once()
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin-ajax.php(22): require_once('/home/maxspee1/...')
+#3 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-settings.php on line 240
+[05-Feb-2024 07:27:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/wccom-site/class-wc-wccom-site-installer.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/wccom-site/class-wc-wccom-site.php:43
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/wccom-site/class-wc-wccom-site.php(29): WC_WCCOM_Site::includes()
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/wccom-site/class-wc-wccom-site.php(252): WC_WCCOM_Site::load()
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/class-woocommerce.php(586): include_once('/home/maxspee1/...')
+#3 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/class-woocommerce.php(188): WooCommerce->includes()
+#4 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/class-woocommerce.php(147): WooCommerce->__construct()
+#5 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/woocommerce.php(53): WooCommerce::instance()
+#6 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/woocommerce.php(68): WC()
+#7 /home/maxspee1/tso.maxspeed-global.com/wp-settings.php(473): include_once('/home/maxspee1/...')
+#8 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once('/home/maxspee1/...')
+#9 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#10 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin.php(34): require_once('/home/maxspee1/...')
+#11 /home/maxspee1/tso.maxspeed-global.com/wp-admin/edit.php(10): require_once('/home/maxspee1/...')
+#12 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/wccom-site/class-wc-wccom-site.php on line 43
+[05-Feb-2024 07:28:02 UTC] PHP Warning:  Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractAddressSchema" not found in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/StoreApi/deprecated.php on line 73
+[05-Feb-2024 07:28:02 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AbstractAddressSchema.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 [internal function]: Automattic\Jetpack\Autoloader\jp13af4a3f8da9b445054cc1ac1e33cd66\PHP_Autoloader::load_class('Automattic\\WooC...')
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/StoreApi/deprecated.php(73): class_alias('Automattic\\WooC...', 'Automattic\\WooC...')
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-version-loader.php(89): require_once('/home/maxspee1/...')
+#3 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-autoloader-handler.php(124): Automattic\Jetpack\Autoloader\jp13af4a3f8da9b445054cc1ac1e33cd66\Version_Loader->load_filemap()
+#4 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-autoloader.php(80): Automattic\Jetpack\Autoloader\jp13af4a3f8da9b445054cc1ac1e33cd66\Autoloader_Handler->activate_autoloader(Array)
+#5 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/autoload_packages.php(13): Automattic\Jetpack\Autoloader\jp13af4a3f8da9b445054cc1ac1e33cd66\Autoloader::init()
+#6 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/Autoloader.php(37): require('/home/maxspee1/...')
+#7 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/woocommerce.php(33): Automattic\WooCommerce\Autoloader::init()
+#8 /home/maxspee1/tso.maxspeed-global.com/wp-settings.php(473): include_once('/home/maxspee1/...')
+#9 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once('/home/maxspee1/...')
+#10 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#11 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin.php(34): require_once('/home/maxspee1/...')
+#12 /home/maxspee1/tso.maxspeed-global.com/wp-admin/edit.php(10): require_once('/home/maxspee1/...')
+#13 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+[14-Mar-2024 05:28:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/Blocks/Options.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/Blocks/Domain/Package.php(73): Automattic\Jetpack\Autoloader\jp13af4a3f8da9b445054cc1ac1e33cd66\PHP_Autoloader::load_class('Automattic\\WooC...')
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/Blocks/Domain/Bootstrap.php(108): Automattic\WooCommerce\Blocks\Domain\Package->get_version_stored_on_db()
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/Blocks/Domain/Bootstrap.php(83): Automattic\WooCommerce\Blocks\Domain\Bootstrap->init()
+#3 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/Blocks/Package.php(125): Automattic\WooCommerce\Blocks\Domain\Bootstrap->__construct(Object(Automattic\WooCommerce\Blocks\Registry\Container))
+#4 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/Blocks/Registry/AbstractDependencyType.php(42): Automattic\WooCommerce\Blocks\Package::Automattic\WooCommerce\Blocks\{closure}(Object(Automattic\WooCommerce\Blocks\Registry\Container))
+#5 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/Blocks/Registry/SharedType.php(28): Automattic\WooCommerce\Blocks\Registry\AbstractDependencyType->resolve_value(Object(Automattic\WooCommerce\Blocks\Registry\Container))
+#6 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/Blocks/Registry/Container.php(96): Automattic\WooCommerce\Blocks\Registry\SharedType->get(Object(Automattic\WooCommerce\Blocks\Registry\Container))
+#7 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/Blocks/Package.php(44): Automattic\WooCommerce\Blocks\Registry\Container->get('Automattic\\WooC...')
+#8 [internal function]: Automattic\WooCommerce\Blocks\Package::init()
+#9 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/Packages.php(128): call_user_func(Array)
+#10 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/Packages.php(64): Automattic\WooCommerce\Packages::initialize_packages()
+#11 /home/maxspee1/tso.maxspeed-global.com/wp-includes/class-wp-hook.php(324): Automattic\WooCommerce\Packages::on_init('')
+#12 /home/maxspee1/tso.maxspeed-global.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#13 /home/maxspee1/tso.maxspeed-global.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /home/maxspee1/tso.maxspeed-global.com/wp-settings.php(506): do_action('plugins_loaded')
+#15 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once('/home/maxspee1/...')
+#16 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#17 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin-ajax.php(22): require_once('/home/maxspee1/...')
+#18 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+[14-Mar-2024 05:28:20 UTC] PHP Warning:  include(): Failed opening '/home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php on line 122
+[14-Mar-2024 05:28:20 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView" not found in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php:41
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php(148): ActionScheduler::admin_view()
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/packages/action-scheduler/action-scheduler.php(60): ActionScheduler::init('/home/maxspee1/...')
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_Versions.php(59): action_scheduler_initialize_3_dot_7_dot_1()
+#3 /home/maxspee1/tso.maxspeed-global.com/wp-includes/class-wp-hook.php(322): ActionScheduler_Versions::initialize_latest_version()
+#4 /home/maxspee1/tso.maxspeed-global.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/maxspee1/tso.maxspeed-global.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/maxspee1/tso.maxspeed-global.com/wp-settings.php(506): do_action('plugins_loaded')
+#7 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once('/home/maxspee1/...')
+#8 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#9 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin-ajax.php(22): require_once('/home/maxspee1/...')
+#10 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php on line 41
+[15-Mar-2024 02:54:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/customer-reviews-woocommerce/includes/settings/class-cr-settings-review-extensions.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/customer-reviews-woocommerce/class-ivole.php:37
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/customer-reviews-woocommerce/ivole.php(46): require_once()
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-settings.php(473): include_once('/home/maxspee1/...')
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once('/home/maxspee1/...')
+#3 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#4 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin-ajax.php(22): require_once('/home/maxspee1/...')
+#5 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/customer-reviews-woocommerce/class-ivole.php on line 37
+[15-Mar-2024 03:01:29 UTC] WordPress database error Duplicate column name 'lang' for query ALTER TABLE wpqn_sbr_reviews_posts ADD COLUMN lang VARCHAR(1000) DEFAULT '' NOT NULL made by activate_plugin, plugin_sandbox_scrape, include_once('/plugins/reviews-feed/sb-reviews.php'), require_once('/plugins/reviews-feed/bootstrap.php'), SmashBalloon\Reviews\Common\ServiceContainer->register, SmashBalloon\Reviews\Common\Services\Upgrade\RoutineManagerService->register, SmashBalloon\Reviews\Common\Services\Upgrade\Routines\LanguageCacheUpgradeRoutine->register, SmashBalloon\Reviews\Common\Services\Upgrade\Routines\LanguageCacheUpgradeRoutine->run
+[15-Mar-2024 03:01:29 UTC] WordPress database error Duplicate key name 'provider_lang' for query ALTER TABLE wpqn_sbr_reviews_posts ADD INDEX provider_lang (provider(140),lang(51)) made by activate_plugin, plugin_sandbox_scrape, include_once('/plugins/reviews-feed/sb-reviews.php'), require_once('/plugins/reviews-feed/bootstrap.php'), SmashBalloon\Reviews\Common\ServiceContainer->register, SmashBalloon\Reviews\Common\Services\Upgrade\RoutineManagerService->register, SmashBalloon\Reviews\Common\Services\Upgrade\Routines\LanguageCacheUpgradeRoutine->register, SmashBalloon\Reviews\Common\Services\Upgrade\Routines\LanguageCacheUpgradeRoutine->run
+[15-Mar-2024 03:35:43 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woo-product-slider/src/Admin/views/models/functions/validate.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woo-product-slider/src/Admin/views/models/classes/SPF_WPSP.php:356
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woo-product-slider/src/Admin/views/models/classes/SPF_WPSP.php(408): ShapedPlugin\WooProductSlider\Admin\views\models\classes\SPF_WPSP::include_plugin_file('functions/valid...')
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woo-product-slider/src/Admin/views/models/classes/SPF_WPSP.php(129): ShapedPlugin\WooProductSlider\Admin\views\models\classes\SPF_WPSP::includes()
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woo-product-slider/src/Admin/views/models/classes/SPF_WPSP.php(720): ShapedPlugin\WooProductSlider\Admin\views\models\classes\SPF_WPSP::init('/home/maxspee1/...')
+#3 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woo-product-slider/vendor/composer/ClassLoader.php(476): include('/home/maxspee1/...')
+#4 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woo-product-slider/vendor/composer/ClassLoader.php(344): Composer\Autoload\includeFile('/home/maxspee1/...')
+#5 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woo-product-slider/src/Admin/Admin.php(28): Composer\Autoload\ClassLoader->loadClass('ShapedPlugin\\Wo...')
+#6 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woo-product-slider/src/Includes/WooProductSlider.php(78): ShapedPlugin\WooProductSlider\Admin\Admin->__construct()
+#7 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woo-product-slider/src/Includes/WooProductSlider.php(66): ShapedPlugin\WooProductSlider\Includes\WooProductSlider->__construct()
+#8 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woo-product-slider/main.php(82): ShapedPlugin\WooProductSlider\Includes\WooProductSlider::instance()
+#9 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woo-product-slider/main.php(86): sp_woo_product_slider()
+#10 /home/maxspee1/tso.maxspeed-global.com/wp-settings.php(473): include_once('/home/maxspee1/...')
+#11 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once('/home/maxspee1/...')
+#12 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#13 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin-ajax.php(22): require_once('/home/maxspee1/...')
+#14 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woo-product-slider/src/Admin/views/models/classes/SPF_WPSP.php on line 356
+[15-Mar-2024 03:35:43 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/automattic/jetpack-connection/src/class-manager.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/automattic/jetpack-connection/src/class-rest-authentication.php(61): Automattic\Jetpack\Autoloader\jp13af4a3f8da9b445054cc1ac1e33cd66\PHP_Autoloader::load_class('Automattic\\Jetp...')
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/automattic/jetpack-connection/src/class-rest-authentication.php(71): Automattic\Jetpack\Connection\Rest_Authentication->__construct()
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/woocommerce.php(72): Automattic\Jetpack\Connection\Rest_Authentication::init()
+#3 /home/maxspee1/tso.maxspeed-global.com/wp-settings.php(473): include_once('/home/maxspee1/...')
+#4 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once('/home/maxspee1/...')
+#5 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#6 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin-ajax.php(22): require_once('/home/maxspee1/...')
+#7 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+[15-Mar-2024 03:35:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/Internal/ProductAttributesLookup/Filterer.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 [internal function]: Automattic\Jetpack\Autoloader\jp13af4a3f8da9b445054cc1ac1e33cd66\PHP_Autoloader::load_class('Automattic\\WooC...')
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/lib/packages/League/Container/Definition/Definition.php(211): class_exists('Automattic\\WooC...')
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/lib/packages/League/Container/Definition/DefinitionAggregate.php(94): Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->resolve(false)
+#3 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/lib/packages/League/Container/Container.php(157): Automattic\WooCommerce\Vendor\League\Container\Definition\DefinitionAggregate->resolve('Automattic\\WooC...', false)
+#4 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/Internal/DependencyManagement/ExtendedContainer.php(158): Automattic\WooCommerce\Vendor\League\Container\Container->get('Automattic\\WooC...', false)
+#5 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/lib/packages/League/Container/Container.php(178): Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->get('Automattic\\WooC...', false)
+#6 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/Internal/DependencyManagement/ExtendedContainer.php(158): Automattic\WooCommerce\Vendor\League\Container\Container->get('Automattic\\WooC...', false)
+#7 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/Container.php(118): Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->get('Automattic\\WooC...')
+#8 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/class-wc-query.php(53): Automattic\WooCommerce\Container->get('Automattic\\WooC...')
+#9 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/class-woocommerce.php(634): WC_Query->__construct()
+#10 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/class-woocommerce.php(189): WooCommerce->includes()
+#11 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/includes/class-woocommerce.php(148): WooCommerce->__construct()
+#12 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/woocommerce.php(53): WooCommerce::instance()
+#13 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/woocommerce.php(68): WC()
+#14 /home/maxspee1/tso.maxspeed-global.com/wp-settings.php(473): include_once('/home/maxspee1/...')
+#15 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once('/home/maxspee1/...')
+#16 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#17 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin-ajax.php(22): require_once('/home/maxspee1/...')
+#18 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+[15-Mar-2024 03:36:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-includes/vars.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-settings.php:451
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once()
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin.php(34): require_once('/home/maxspee1/...')
+#3 /home/maxspee1/tso.maxspeed-global.com/wp-admin/edit.php(10): require_once('/home/maxspee1/...')
+#4 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-settings.php on line 451
+[18-Apr-2024 03:31:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/Blocks/BlockTypes/CartTotalsBlock.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/src/Blocks/BlockTypesController.php(106): Automattic\Jetpack\Autoloader\jpd170e6eb5a865b5eccdf3f305749e3f6\PHP_Autoloader::load_class('Automattic\\WooC...')
+#1 /home/maxspee1/tso.maxspeed-global.com/wp-includes/class-wp-hook.php(324): Automattic\WooCommerce\Blocks\BlockTypesController->register_blocks('')
+#2 /home/maxspee1/tso.maxspeed-global.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home/maxspee1/tso.maxspeed-global.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/maxspee1/tso.maxspeed-global.com/wp-settings.php(695): do_action('init')
+#5 /home/maxspee1/tso.maxspeed-global.com/wp-config.php(102): require_once('/home/maxspee1/...')
+#6 /home/maxspee1/tso.maxspeed-global.com/wp-load.php(50): require_once('/home/maxspee1/...')
+#7 /home/maxspee1/tso.maxspeed-global.com/wp-admin/admin-ajax.php(22): require_once('/home/maxspee1/...')
+#8 {main}
+  thrown in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+[27-May-2024 09:35:31 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 2023424 bytes) in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/all-in-one-wp-migration/lib/vendor/servmask/database/class-ai1wm-database.php on line 1016
+[27-May-2024 09:35:33 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 2023424 bytes) in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/all-in-one-wp-migration/lib/vendor/servmask/database/class-ai1wm-database.php on line 1016
+[27-May-2024 09:35:35 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 2023424 bytes) in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/all-in-one-wp-migration/lib/vendor/servmask/database/class-ai1wm-database.php on line 1016
+[27-May-2024 09:35:39 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 2023424 bytes) in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/all-in-one-wp-migration/lib/vendor/servmask/database/class-ai1wm-database.php on line 1016
+[27-May-2024 09:35:44 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 2023424 bytes) in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/all-in-one-wp-migration/lib/vendor/servmask/database/class-ai1wm-database.php on line 1016
+[27-May-2024 09:35:50 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 2023424 bytes) in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/all-in-one-wp-migration/lib/vendor/servmask/database/class-ai1wm-database.php on line 1016
+[27-May-2024 09:38:47 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 2023424 bytes) in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/all-in-one-wp-migration/lib/vendor/servmask/database/class-ai1wm-database.php on line 1016
+[27-May-2024 09:38:48 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 2023424 bytes) in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/all-in-one-wp-migration/lib/vendor/servmask/database/class-ai1wm-database.php on line 1016
+[27-May-2024 09:38:51 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 2023424 bytes) in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/all-in-one-wp-migration/lib/vendor/servmask/database/class-ai1wm-database.php on line 1016
+[27-May-2024 09:38:55 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 2023424 bytes) in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/all-in-one-wp-migration/lib/vendor/servmask/database/class-ai1wm-database.php on line 1016
+[27-May-2024 09:38:59 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 2023424 bytes) in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/all-in-one-wp-migration/lib/vendor/servmask/database/class-ai1wm-database.php on line 1016
+[27-May-2024 09:39:05 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 2023424 bytes) in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/all-in-one-wp-migration/lib/vendor/servmask/database/class-ai1wm-database.php on line 1016
+[27-May-2024 09:50:24 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 2023424 bytes) in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/all-in-one-wp-migration/lib/vendor/servmask/database/class-ai1wm-database.php on line 1016
+[27-May-2024 09:50:25 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 2023424 bytes) in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/all-in-one-wp-migration/lib/vendor/servmask/database/class-ai1wm-database.php on line 1016
+[27-May-2024 09:50:28 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 2023424 bytes) in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/all-in-one-wp-migration/lib/vendor/servmask/database/class-ai1wm-database.php on line 1016
+[27-May-2024 09:50:32 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 2023424 bytes) in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/all-in-one-wp-migration/lib/vendor/servmask/database/class-ai1wm-database.php on line 1016
+[27-May-2024 09:50:37 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 2023424 bytes) in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/all-in-one-wp-migration/lib/vendor/servmask/database/class-ai1wm-database.php on line 1016
+[27-May-2024 09:50:43 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 2023424 bytes) in /home/maxspee1/tso.maxspeed-global.com/wp-content/plugins/all-in-one-wp-migration/lib/vendor/servmask/database/class-ai1wm-database.php on line 1016
